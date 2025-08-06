@@ -10,7 +10,7 @@ app.use(bodyParser.json());
 // --- In-memory Service Providers (for Hackathon MVP) ---
 // In a real app, this would be a database (e.g., Supabase free tier)
 const serviceProviders = [
-  { id: 'p1', type: 'plumber', location: 'GRA', contact: '08012345678' },
+  { id: 'p1', type: 'plumber', location: 'GA', contact: '08012345678' },
   { id: 't1', type: 'tailor', location: 'Sawmill', contact: '08098765432' },
   { id: 'e1', type: 'electrician', location: 'Tanke', contact: '07011223344' },
   { id: 'p2', type: 'plumber', location: 'Tanke', contact: '08055554444' },
