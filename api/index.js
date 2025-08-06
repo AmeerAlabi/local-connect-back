@@ -80,10 +80,8 @@ app.post('/api/match-service', (req, res) => {
 // Export the app for Vercel serverless deployment
 module.exports = app;
 
-// Optional: For local testing of the Express app directly (uncomment to use)
-/*
+// Start the server
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
   console.log(`Express server running on http://localhost:${PORT}/api/match-service`);
 });
-*/
